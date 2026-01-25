@@ -238,7 +238,7 @@ main > section{
 }
   .footer{
     padding: 10px 10px;
-    margin: 50px 0;
+    margin: 50px 0 20px;
   }
 
 }
@@ -251,7 +251,8 @@ main > section{
   .our-features{
     margin: 50px auto;
   }
-  .sponsor-companies, .facts-container{
+  .sponsor-companies, 
+  .facts-container{
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
     justify-items: center;
